@@ -208,7 +208,7 @@ Currently, I'm focused on strengthening my backend development, database design,
 
 <br/>
 
-## 🏆 GitHub Trophies
+<!-- ## 🏆 GitHub Trophies
 
 <div align="center">
 
@@ -216,7 +216,7 @@ Currently, I'm focused on strengthening my backend development, database design,
 
 </div>
 
-<br/>
+<br/> -->
 
 ## 🐍 Contribution Snake
 
