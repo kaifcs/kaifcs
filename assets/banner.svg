@@ -1,0 +1,59 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f2027"/>
+      <stop offset="50%" stop-color="#203a43"/>
+      <stop offset="100%" stop-color="#2c5364"/>
+    </linearGradient>
+    <radialGradient id="glowCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowViolet" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="panelGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.03"/>
+    </linearGradient>
+    <filter id="blurBig" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="45"/>
+    </filter>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#a5f3fc"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bgGrad)"/>
+
+  <!-- ambient glow blobs -->
+  <circle cx="150" cy="60" r="180" fill="url(#glowCyan)" filter="url(#blurBig)"/>
+  <circle cx="1080" cy="260" r="220" fill="url(#glowViolet)" filter="url(#blurBig)"/>
+
+  <!-- subtle dot grid -->
+  <g opacity="0.12">
+    <pattern id="dots" x="0" y="0" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.4" fill="#ffffff"/>
+    </pattern>
+    <rect width="1200" height="300" fill="url(#dots)"/>
+  </g>
+
+  <!-- glass panel -->
+  <rect x="90" y="70" width="1020" height="160" rx="24" fill="url(#panelGrad)" stroke="#ffffff" stroke-opacity="0.14"/>
+
+  <!-- code bracket accent -->
+  <text x="130" y="188" font-family="'Fira Code','JetBrains Mono',monospace" font-size="64" fill="#22d3ee" opacity="0.85">&lt;/&gt;</text>
+
+  <!-- name -->
+  <text x="270" y="150" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="46" font-weight="700" fill="url(#textGrad)">Kaif Khan</text>
+
+  <!-- tagline -->
+  <text x="270" y="185" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="18" fill="#cbd5e1">
+    Computer Science Undergraduate &#183; MERN Stack Developer &#183; Competitive Programmer
+  </text>
+
+  <!-- bottom wave -->
+  <path d="M0,300 L0,255 C200,220 350,290 600,260 C850,230 1000,215 1200,250 L1200,300 Z" fill="#0b1120" opacity="0.55"/>
+</svg>

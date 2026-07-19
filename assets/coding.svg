@@ -1,0 +1,63 @@
+<svg width="480" height="320" viewBox="0 0 480 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f2027"/>
+      <stop offset="100%" stop-color="#203a43"/>
+    </linearGradient>
+    <radialGradient id="cGlowCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cGlowViolet" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="cBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="28"/>
+    </filter>
+    <linearGradient id="cPanel" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.03"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="480" height="320" rx="20" fill="url(#cBg)"/>
+  <circle cx="80" cy="60" r="90" fill="url(#cGlowCyan)" filter="url(#cBlur)"/>
+  <circle cx="420" cy="270" r="110" fill="url(#cGlowViolet)" filter="url(#cBlur)"/>
+
+  <!-- editor window -->
+  <rect x="40" y="46" width="400" height="228" rx="14" fill="url(#cPanel)" stroke="#ffffff" stroke-opacity="0.16"/>
+
+  <!-- title bar -->
+  <rect x="40" y="46" width="400" height="34" rx="14" fill="#ffffff" fill-opacity="0.06"/>
+  <circle cx="62" cy="63" r="5" fill="#f87171"/>
+  <circle cx="80" cy="63" r="5" fill="#fbbf24"/>
+  <circle cx="98" cy="63" r="5" fill="#34d399"/>
+  <text x="220" y="68" text-anchor="middle" font-family="'Fira Code',monospace" font-size="12" fill="#94a3b8">kaif.dev</text>
+
+  <!-- code lines -->
+  <g font-family="'Fira Code',monospace" font-size="14">
+    <text x="64" y="108" fill="#c792ea">const</text>
+    <text x="108" y="108" fill="#82aaff">developer</text>
+    <text x="196" y="108" fill="#89ddff">=</text>
+    <text x="212" y="108" fill="#c3e88d">{</text>
+
+    <text x="84" y="132" fill="#82aaff">name:</text>
+    <text x="140" y="132" fill="#c3e88d">"Kaif Khan"</text>
+    <text x="248" y="132" fill="#89ddff">,</text>
+
+    <text x="84" y="156" fill="#82aaff">stack:</text>
+    <text x="146" y="156" fill="#c3e88d">"MERN"</text>
+    <text x="216" y="156" fill="#89ddff">,</text>
+
+    <text x="84" y="180" fill="#82aaff">focus:</text>
+    <text x="146" y="180" fill="#c3e88d">"DSA + Backend"</text>
+
+    <text x="64" y="204" fill="#c3e88d">}</text>
+
+    <text x="64" y="236" fill="#5c6773">// building, one commit at a time</text>
+  </g>
+
+  <!-- blinking cursor accent -->
+  <rect x="64" y="240" width="8" height="16" fill="#22d3ee" opacity="0.85"/>
+</svg>
