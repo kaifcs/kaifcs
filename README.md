@@ -75,6 +75,87 @@ Currently, I'm focused on strengthening my backend development, database design,
 
 <br/>
 
+## 🚀 Featured Projects
+
+### 📚 LearnSphere — Learning Management System
+
+> A full-stack Learning Management System built with the MERN stack, enabling students to explore, purchase, and learn from online courses through a secure and responsive platform.
+
+| Highlight | Details |
+|------------|---------|
+| 👨‍🏫 Course Management | Browse, create, manage, and publish courses through dedicated student and instructor dashboards |
+| 🔐 Authentication | Secure JWT-based authentication with role-based access control |
+| ⭐ Learning Experience | Course enrollment, reviews & ratings, and a responsive learning experience |
+| 🛠️ Tech Stack | `React` `Node.js` `Express.js` `MongoDB` `Tailwind CSS` |
+
+<div align="center">
+
+<a href="https://learn-sphere-lms.vercel.app/">
+<img src="https://img.shields.io/badge/🌐_Live_Demo-00C853?style=for-the-badge&logo=vercel&logoColor=white"/>
+</a>
+&nbsp;&nbsp;
+<a href="https://github.com/kaifcs/LearnSphere">
+<img src="https://img.shields.io/badge/💻_Source_Code-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+&nbsp;&nbsp;
+<a href="https://learnsphere-backend-kx4j.onrender.com">
+<img src="https://img.shields.io/badge/⚙️_Backend_API-009688?style=for-the-badge"/>
+</a>
+
+</div>
+
+---
+
+### 🎨 PixelMint AI — AI Image Generation Platform
+
+> An AI-powered image generation and editing platform featuring secure authentication, credit-based usage, cloud image processing, and a modern responsive interface.
+
+| Highlight | Details |
+|------------|---------|
+| 🤖 AI Features | Generate AI-powered images through an intuitive prompt-based interface |
+| 🔐 Authentication | Secure user authentication and account management |
+| 💳 Credit System | Credit-based usage model with integrated payment workflow |
+| 🛠️ Tech Stack | `React` `Node.js` `Express.js` `MongoDB` `Tailwind CSS` |
+
+<div align="center">
+
+<a href="https://pixelmint-ai-frontend.vercel.app/">
+<img src="https://img.shields.io/badge/🌐_Live_Demo-00C853?style=for-the-badge&logo=vercel&logoColor=white"/>
+</a>
+&nbsp;&nbsp;
+<a href="https://github.com/kaifcs/PixelMint_AI">
+<img src="https://img.shields.io/badge/💻_Source_Code-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+&nbsp;&nbsp;
+<a href="https://pixelmint-ai-xo8g.onrender.com">
+<img src="https://img.shields.io/badge/⚙️_Backend_API-009688?style=for-the-badge"/>
+</a>
+
+</div>
+
+---
+
+### 📊 E-Commerce Store Analysis Dashboard
+
+> An interactive Power BI dashboard for analyzing e-commerce sales performance, customer behavior, profitability, and business trends through data-driven visualizations.
+
+| Highlight | Details |
+|------------|---------|
+| 📈 Business Insights | Interactive dashboard with KPIs, sales trends, customer & regional analysis |
+| 📊 Data Analytics | Built using Power Query, DAX, data modeling, and interactive visualizations |
+| 📉 KPI Reporting | Sales, Profit, Quantity Sold, Profit Margin, Top Customers & Categories |
+| 🛠️ Tech Stack | `Power BI` `Power Query` `DAX` `Excel/CSV` |
+
+<div align="center">
+
+<a href="https://github.com/kaifcs/E_Commerce_Store_Analysis">
+<img src="https://img.shields.io/badge/💻_Source_Code-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+</div>
+
+<br/>
+
 
 ## 🏆 Competitive Programming
 
@@ -246,3 +327,8 @@ Currently, I'm focused on strengthening my backend development, database design,
 </div>
 
 --- -->
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer"/>
+
+</div>
